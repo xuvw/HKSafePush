@@ -12,8 +12,8 @@
 		AD0DA26F1C58D38B00EEC0FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0DA26E1C58D38B00EEC0FA /* ViewController.m */; };
 		AD0DA2741C58D38B00EEC0FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0DA2731C58D38B00EEC0FA /* Assets.xcassets */; };
 		AD0DA2771C58D38B00EEC0FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0DA2751C58D38B00EEC0FA /* LaunchScreen.storyboard */; };
-		AD0DA2801C58D5EF00EEC0FA /* UINavigationController+HKExts.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0DA27F1C58D5EF00EEC0FA /* UINavigationController+HKExts.m */; };
-		AD0DA2831C59AF2B00EEC0FA /* UIViewController+HKSageExts.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0DA2821C59AF2B00EEC0FA /* UIViewController+HKSageExts.m */; };
+		AD0DA2881C59BFD900EEC0FA /* UINavigationController+HKExts.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0DA2851C59BFD900EEC0FA /* UINavigationController+HKExts.m */; };
+		AD0DA2891C59BFD900EEC0FA /* UIViewController+HKSageExts.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0DA2871C59BFD900EEC0FA /* UIViewController+HKSageExts.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +26,10 @@
 		AD0DA2731C58D38B00EEC0FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD0DA2761C58D38B00EEC0FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD0DA2781C58D38B00EEC0FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD0DA27E1C58D5EF00EEC0FA /* UINavigationController+HKExts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+HKExts.h"; sourceTree = "<group>"; };
-		AD0DA27F1C58D5EF00EEC0FA /* UINavigationController+HKExts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+HKExts.m"; sourceTree = "<group>"; };
-		AD0DA2811C59AF2B00EEC0FA /* UIViewController+HKSageExts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+HKSageExts.h"; path = "../UIViewController+HKSageExts.h"; sourceTree = "<group>"; };
-		AD0DA2821C59AF2B00EEC0FA /* UIViewController+HKSageExts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+HKSageExts.m"; path = "../UIViewController+HKSageExts.m"; sourceTree = "<group>"; };
+		AD0DA2841C59BFD900EEC0FA /* UINavigationController+HKExts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+HKExts.h"; sourceTree = "<group>"; };
+		AD0DA2851C59BFD900EEC0FA /* UINavigationController+HKExts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+HKExts.m"; sourceTree = "<group>"; };
+		AD0DA2861C59BFD900EEC0FA /* UIViewController+HKSageExts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HKSageExts.h"; sourceTree = "<group>"; };
+		AD0DA2871C59BFD900EEC0FA /* UIViewController+HKSageExts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HKSageExts.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +62,10 @@
 		AD0DA2661C58D38B00EEC0FA /* SageNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				AD0DA2841C59BFD900EEC0FA /* UINavigationController+HKExts.h */,
+				AD0DA2851C59BFD900EEC0FA /* UINavigationController+HKExts.m */,
+				AD0DA2861C59BFD900EEC0FA /* UIViewController+HKSageExts.h */,
+				AD0DA2871C59BFD900EEC0FA /* UIViewController+HKSageExts.m */,
 				AD0DA26A1C58D38B00EEC0FA /* AppDelegate.h */,
 				AD0DA26B1C58D38B00EEC0FA /* AppDelegate.m */,
 				AD0DA26D1C58D38B00EEC0FA /* ViewController.h */,
@@ -70,10 +74,6 @@
 				AD0DA2751C58D38B00EEC0FA /* LaunchScreen.storyboard */,
 				AD0DA2781C58D38B00EEC0FA /* Info.plist */,
 				AD0DA2671C58D38B00EEC0FA /* Supporting Files */,
-				AD0DA27E1C58D5EF00EEC0FA /* UINavigationController+HKExts.h */,
-				AD0DA27F1C58D5EF00EEC0FA /* UINavigationController+HKExts.m */,
-				AD0DA2811C59AF2B00EEC0FA /* UIViewController+HKSageExts.h */,
-				AD0DA2821C59AF2B00EEC0FA /* UIViewController+HKSageExts.m */,
 			);
 			path = SageNavigation;
 			sourceTree = "<group>";
@@ -157,8 +157,8 @@
 			files = (
 				AD0DA26F1C58D38B00EEC0FA /* ViewController.m in Sources */,
 				AD0DA26C1C58D38B00EEC0FA /* AppDelegate.m in Sources */,
-				AD0DA2801C58D5EF00EEC0FA /* UINavigationController+HKExts.m in Sources */,
-				AD0DA2831C59AF2B00EEC0FA /* UIViewController+HKSageExts.m in Sources */,
+				AD0DA2881C59BFD900EEC0FA /* UINavigationController+HKExts.m in Sources */,
+				AD0DA2891C59BFD900EEC0FA /* UIViewController+HKSageExts.m in Sources */,
 				AD0DA2691C58D38B00EEC0FA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
