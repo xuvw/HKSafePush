@@ -7,29 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD0DA2691C58D38B00EEC0FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0DA2681C58D38B00EEC0FA /* main.m */; };
-		AD0DA26C1C58D38B00EEC0FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0DA26B1C58D38B00EEC0FA /* AppDelegate.m */; };
-		AD0DA26F1C58D38B00EEC0FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0DA26E1C58D38B00EEC0FA /* ViewController.m */; };
-		AD0DA2741C58D38B00EEC0FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0DA2731C58D38B00EEC0FA /* Assets.xcassets */; };
-		AD0DA2771C58D38B00EEC0FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0DA2751C58D38B00EEC0FA /* LaunchScreen.storyboard */; };
-		AD0DA2881C59BFD900EEC0FA /* UINavigationController+HKExts.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0DA2851C59BFD900EEC0FA /* UINavigationController+HKExts.m */; };
-		AD0DA2891C59BFD900EEC0FA /* UIViewController+HKSageExts.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0DA2871C59BFD900EEC0FA /* UIViewController+HKSageExts.m */; };
+		AD3BECB71C5F321800CF7375 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3BECAB1C5F321800CF7375 /* AppDelegate.m */; };
+		AD3BECB81C5F321800CF7375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3BECAC1C5F321800CF7375 /* Assets.xcassets */; };
+		AD3BECB91C5F321800CF7375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3BECAD1C5F321800CF7375 /* LaunchScreen.storyboard */; };
+		AD3BECBA1C5F321800CF7375 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD3BECAF1C5F321800CF7375 /* Info.plist */; };
+		AD3BECBB1C5F321800CF7375 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3BECB01C5F321800CF7375 /* main.m */; };
+		AD3BECBC1C5F321800CF7375 /* UINavigationController+HKExts.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3BECB21C5F321800CF7375 /* UINavigationController+HKExts.m */; };
+		AD3BECBD1C5F321800CF7375 /* UIViewController+HKSafeExts.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3BECB41C5F321800CF7375 /* UIViewController+HKSafeExts.m */; };
+		AD3BECBE1C5F321800CF7375 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3BECB61C5F321800CF7375 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AD0DA2641C58D38B00EEC0FA /* SageNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SageNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD0DA2681C58D38B00EEC0FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AD0DA26A1C58D38B00EEC0FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AD0DA26B1C58D38B00EEC0FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AD0DA26D1C58D38B00EEC0FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AD0DA26E1C58D38B00EEC0FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AD0DA2731C58D38B00EEC0FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AD0DA2761C58D38B00EEC0FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AD0DA2781C58D38B00EEC0FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD0DA2841C59BFD900EEC0FA /* UINavigationController+HKExts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+HKExts.h"; sourceTree = "<group>"; };
-		AD0DA2851C59BFD900EEC0FA /* UINavigationController+HKExts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+HKExts.m"; sourceTree = "<group>"; };
-		AD0DA2861C59BFD900EEC0FA /* UIViewController+HKSageExts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HKSageExts.h"; sourceTree = "<group>"; };
-		AD0DA2871C59BFD900EEC0FA /* UIViewController+HKSageExts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HKSageExts.m"; sourceTree = "<group>"; };
+		AD0DA2641C58D38B00EEC0FA /* SafeNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3BECAA1C5F321800CF7375 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD3BECAB1C5F321800CF7375 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD3BECAC1C5F321800CF7375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD3BECAE1C5F321800CF7375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD3BECAF1C5F321800CF7375 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD3BECB01C5F321800CF7375 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD3BECB11C5F321800CF7375 /* UINavigationController+HKExts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+HKExts.h"; sourceTree = "<group>"; };
+		AD3BECB21C5F321800CF7375 /* UINavigationController+HKExts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+HKExts.m"; sourceTree = "<group>"; };
+		AD3BECB31C5F321800CF7375 /* UIViewController+HKSafeExts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HKSafeExts.h"; sourceTree = "<group>"; };
+		AD3BECB41C5F321800CF7375 /* UIViewController+HKSafeExts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HKSafeExts.m"; sourceTree = "<group>"; };
+		AD3BECB51C5F321800CF7375 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD3BECB61C5F321800CF7375 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +47,7 @@
 		AD0DA25B1C58D38B00EEC0FA = {
 			isa = PBXGroup;
 			children = (
-				AD0DA2661C58D38B00EEC0FA /* SageNavigation */,
+				AD3BECA91C5F321800CF7375 /* SafeNavigation */,
 				AD0DA2651C58D38B00EEC0FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,44 +55,36 @@
 		AD0DA2651C58D38B00EEC0FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AD0DA2641C58D38B00EEC0FA /* SageNavigation.app */,
+				AD0DA2641C58D38B00EEC0FA /* SafeNavigation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AD0DA2661C58D38B00EEC0FA /* SageNavigation */ = {
+		AD3BECA91C5F321800CF7375 /* SafeNavigation */ = {
 			isa = PBXGroup;
 			children = (
-				AD0DA2841C59BFD900EEC0FA /* UINavigationController+HKExts.h */,
-				AD0DA2851C59BFD900EEC0FA /* UINavigationController+HKExts.m */,
-				AD0DA2861C59BFD900EEC0FA /* UIViewController+HKSageExts.h */,
-				AD0DA2871C59BFD900EEC0FA /* UIViewController+HKSageExts.m */,
-				AD0DA26A1C58D38B00EEC0FA /* AppDelegate.h */,
-				AD0DA26B1C58D38B00EEC0FA /* AppDelegate.m */,
-				AD0DA26D1C58D38B00EEC0FA /* ViewController.h */,
-				AD0DA26E1C58D38B00EEC0FA /* ViewController.m */,
-				AD0DA2731C58D38B00EEC0FA /* Assets.xcassets */,
-				AD0DA2751C58D38B00EEC0FA /* LaunchScreen.storyboard */,
-				AD0DA2781C58D38B00EEC0FA /* Info.plist */,
-				AD0DA2671C58D38B00EEC0FA /* Supporting Files */,
+				AD3BECAA1C5F321800CF7375 /* AppDelegate.h */,
+				AD3BECAB1C5F321800CF7375 /* AppDelegate.m */,
+				AD3BECAC1C5F321800CF7375 /* Assets.xcassets */,
+				AD3BECAD1C5F321800CF7375 /* LaunchScreen.storyboard */,
+				AD3BECAF1C5F321800CF7375 /* Info.plist */,
+				AD3BECB01C5F321800CF7375 /* main.m */,
+				AD3BECB11C5F321800CF7375 /* UINavigationController+HKExts.h */,
+				AD3BECB21C5F321800CF7375 /* UINavigationController+HKExts.m */,
+				AD3BECB31C5F321800CF7375 /* UIViewController+HKSafeExts.h */,
+				AD3BECB41C5F321800CF7375 /* UIViewController+HKSafeExts.m */,
+				AD3BECB51C5F321800CF7375 /* ViewController.h */,
+				AD3BECB61C5F321800CF7375 /* ViewController.m */,
 			);
-			path = SageNavigation;
-			sourceTree = "<group>";
-		};
-		AD0DA2671C58D38B00EEC0FA /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AD0DA2681C58D38B00EEC0FA /* main.m */,
-			);
-			name = "Supporting Files";
+			path = SafeNavigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AD0DA2631C58D38B00EEC0FA /* SageNavigation */ = {
+		AD0DA2631C58D38B00EEC0FA /* SafeNavigation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AD0DA27B1C58D38B00EEC0FA /* Build configuration list for PBXNativeTarget "SageNavigation" */;
+			buildConfigurationList = AD0DA27B1C58D38B00EEC0FA /* Build configuration list for PBXNativeTarget "SafeNavigation" */;
 			buildPhases = (
 				AD0DA2601C58D38B00EEC0FA /* Sources */,
 				AD0DA2611C58D38B00EEC0FA /* Frameworks */,
@@ -101,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = SageNavigation;
+			name = SafeNavigation;
 			productName = SageNavigation;
-			productReference = AD0DA2641C58D38B00EEC0FA /* SageNavigation.app */;
+			productReference = AD0DA2641C58D38B00EEC0FA /* SafeNavigation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -120,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AD0DA25F1C58D38B00EEC0FA /* Build configuration list for PBXProject "SageNavigation" */;
+			buildConfigurationList = AD0DA25F1C58D38B00EEC0FA /* Build configuration list for PBXProject "SafeNavigation" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -133,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AD0DA2631C58D38B00EEC0FA /* SageNavigation */,
+				AD0DA2631C58D38B00EEC0FA /* SafeNavigation */,
 			);
 		};
 /* End PBXProject section */
@@ -143,8 +136,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD0DA2771C58D38B00EEC0FA /* LaunchScreen.storyboard in Resources */,
-				AD0DA2741C58D38B00EEC0FA /* Assets.xcassets in Resources */,
+				AD3BECB91C5F321800CF7375 /* LaunchScreen.storyboard in Resources */,
+				AD3BECB81C5F321800CF7375 /* Assets.xcassets in Resources */,
+				AD3BECBA1C5F321800CF7375 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,21 +149,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD0DA26F1C58D38B00EEC0FA /* ViewController.m in Sources */,
-				AD0DA26C1C58D38B00EEC0FA /* AppDelegate.m in Sources */,
-				AD0DA2881C59BFD900EEC0FA /* UINavigationController+HKExts.m in Sources */,
-				AD0DA2891C59BFD900EEC0FA /* UIViewController+HKSageExts.m in Sources */,
-				AD0DA2691C58D38B00EEC0FA /* main.m in Sources */,
+				AD3BECB71C5F321800CF7375 /* AppDelegate.m in Sources */,
+				AD3BECBE1C5F321800CF7375 /* ViewController.m in Sources */,
+				AD3BECBD1C5F321800CF7375 /* UIViewController+HKSafeExts.m in Sources */,
+				AD3BECBB1C5F321800CF7375 /* main.m in Sources */,
+				AD3BECBC1C5F321800CF7375 /* UINavigationController+HKExts.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AD0DA2751C58D38B00EEC0FA /* LaunchScreen.storyboard */ = {
+		AD3BECAD1C5F321800CF7375 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AD0DA2761C58D38B00EEC0FA /* Base */,
+				AD3BECAE1C5F321800CF7375 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -261,11 +255,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SageNavigation/Info.plist;
+				INFOPLIST_FILE = SafeNavigation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhk.ios.SageNavigation;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SafeNavigation;
 			};
 			name = Debug;
 		};
@@ -273,18 +267,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SageNavigation/Info.plist;
+				INFOPLIST_FILE = SafeNavigation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhk.ios.SageNavigation;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SafeNavigation;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AD0DA25F1C58D38B00EEC0FA /* Build configuration list for PBXProject "SageNavigation" */ = {
+		AD0DA25F1C58D38B00EEC0FA /* Build configuration list for PBXProject "SafeNavigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AD0DA2791C58D38B00EEC0FA /* Debug */,
@@ -293,7 +287,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD0DA27B1C58D38B00EEC0FA /* Build configuration list for PBXNativeTarget "SageNavigation" */ = {
+		AD0DA27B1C58D38B00EEC0FA /* Build configuration list for PBXNativeTarget "SafeNavigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AD0DA27C1C58D38B00EEC0FA /* Debug */,

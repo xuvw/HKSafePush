@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AD0DA2631C58D38B00EEC0FA"
-               BuildableName = "SageNavigation.app"
-               BlueprintName = "SageNavigation"
-               ReferencedContainer = "container:SageNavigation.xcodeproj">
+               BuildableName = "SafeNavigation.app"
+               BlueprintName = "SafeNavigation"
+               ReferencedContainer = "container:SafeNavigation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AD0DA2631C58D38B00EEC0FA"
-            BuildableName = "SageNavigation.app"
-            BlueprintName = "SageNavigation"
-            ReferencedContainer = "container:SageNavigation.xcodeproj">
+            BuildableName = "SafeNavigation.app"
+            BlueprintName = "SafeNavigation"
+            ReferencedContainer = "container:SafeNavigation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AD0DA2631C58D38B00EEC0FA"
-            BuildableName = "SageNavigation.app"
-            BlueprintName = "SageNavigation"
-            ReferencedContainer = "container:SageNavigation.xcodeproj">
+            BuildableName = "SafeNavigation.app"
+            BlueprintName = "SafeNavigation"
+            ReferencedContainer = "container:SafeNavigation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AD0DA2631C58D38B00EEC0FA"
-            BuildableName = "SageNavigation.app"
-            BlueprintName = "SageNavigation"
-            ReferencedContainer = "container:SageNavigation.xcodeproj">
+            BuildableName = "SafeNavigation.app"
+            BlueprintName = "SafeNavigation"
+            ReferencedContainer = "container:SafeNavigation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

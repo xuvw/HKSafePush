@@ -8,7 +8,7 @@
 
 #import "UINavigationController+HKExts.h"
 #import <objc/runtime.h>
-#import "UIViewController+HKSageExts.h"
+#import "UIViewController+HKSafeExts.h"
 
 @implementation UINavigationController (HKExts)
 

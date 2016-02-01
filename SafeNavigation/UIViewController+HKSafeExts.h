@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIViewController (HKSageExts)
+@interface UIViewController (HKSafeExts)
 
 @property (nonatomic, assign) BOOL hk_Pushing;
 
