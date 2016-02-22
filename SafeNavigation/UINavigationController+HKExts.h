@@ -11,5 +11,6 @@
 @interface UINavigationController (HKExts)
 
 - (BOOL)canPushViewController:(UIViewController *)vc;
+- (BOOL)canPopViewController:(UIViewController *)vc;
 
 @end

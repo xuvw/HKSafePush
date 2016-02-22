@@ -37,4 +37,8 @@
     return YES;
 }
 
+- (BOOL)canPopViewController:(UIViewController *)vc {
+    return YES;
+}
+
 @end
