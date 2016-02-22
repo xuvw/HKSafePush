@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "SafeNavigation"
   s.version      = "0.0.1"
-  s.summary      = "A short description of SafeNavigation."
+  s.summary      = "防止同时多次push导致的UINavigationController crash"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+                    防止同时多次push导致的UINavigationController crash，防止同时多次push导致的UINavigationController crash
                    DESC
 
-  s.homepage     = "http://EXAMPLE/SafeNavigation"
+  s.homepage     = "https://github.com/xuvw/safePush.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,8 +39,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # s.license      = "MIT (example)"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "git@github.com:xuvw/safePush.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/xuvw/safePush.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
